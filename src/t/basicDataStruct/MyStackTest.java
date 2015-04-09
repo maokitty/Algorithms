@@ -9,6 +9,7 @@ import org.junit.Test;
 import s.basicDataStruct.MyStack;
 
 public class MyStackTest {
+	//每一个
     private MyStack stack;
     @Before
     public void setup(){
