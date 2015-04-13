@@ -1,6 +1,5 @@
 package t.basicDataStruct;
 
-import static org.junit.Assert.*;
 import junit.framework.Assert;
 
 import org.junit.Test;
@@ -43,5 +42,9 @@ public class MyBidirectionalListTest {
     	System.out.println("after delete:");
     	l.print();
     	l.delete(5);
+    	l.delete(1);
+    	l.delete(2);
+    	l.delete(4);
+    	Assert.assertEquals(true, l.isEmpty());
     }
 }
